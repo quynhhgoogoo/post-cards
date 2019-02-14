@@ -1,0 +1,144 @@
+body{
+  overflow: hidden;
+  height : 100vh;
+  width :100vw;
+  display: flex;
+  justify-content : center;
+  align-item : center;
+  background : #424f6f;
+ }
+
+#container{
+  width : 500px;
+  height : 500px;
+  box-sizing :border-box;
+}
+
+#spooky{
+  margin : 0 auto;
+  width : 50%;
+  height : 80%;
+  animation : floaty 2s infinite;
+}
+
+#spooky #body{
+  position : relative;
+  margin : 150px auto 0;
+  width : 180px;
+  height : 220px;
+  border-top-left-radius: 90px;
+  border-top-right-radius: 90px;
+  background: #f2fbf1;
+}
+
+#spooky #body::before,
+#spooky #body::after{
+  content :'';
+  position : absolute;
+  top : 100px;
+  width: 45px;
+  height: 45px;
+  border-radius : 50%;
+  background: #f2fbf1;
+  animation: floaty .15s infinite;
+}
+
+#spooky #body::after{
+  left : -20px;
+}
+
+#spooky #body::before{
+  right : -20px;
+}
+
+#spooky #body #eyes::before,
+#spooky #body #eyes::after{
+  content : '';
+  display : flex;
+  width : 30px;
+  height : 30px;
+  background: #252c49;
+  border-radius: 50%;
+}
+
+#spooky #body #eyes{
+  display : flex;
+  justify-content: space-between;
+  margin : 0 auto;
+  padding : 50px 0 0;
+  width : 90px;
+  height : 20px;
+}
+
+#spooky #body #mouth{
+  background: #252c49;
+  width : 60px;
+  height : 30px;
+  margin : 25px auto;
+  border-radius : 0px 0px 30px 30px;
+}
+
+#spooky #body #mouth::before{
+    content: ' ';
+    background: #f2fbf1;
+    width: 10px;
+    height: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+#spooky #body #mouth:after{
+    content: ' ';
+    background: #f2fbf1;
+    width: 10px;
+    height: 10px;
+    margin-left: 43px;
+    margin-top : -10px;
+    display: flex;
+}
+
+#spooky #body #feet>*,
+#spooky #body #feet::before,
+#spooky #body #feet::after{
+  content :'';
+  width: 36px;
+  height : 36px;
+  background : #f2fbf1;
+  border-radius: 50%;
+}
+
+#spooky #body #feet{
+  position : absolute;
+  display :flex;
+  bottom : -15px;
+}
+
+#shadow{
+  background: #252c49;
+  width: 180px;
+  height :40px;
+  border-radius : 50%;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  margin:  -90px auto 0;
+  animation: zoomy 2s infinite;
+}
+
+@keyframes floaty{
+  0%,100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes zoomy{
+  0%,100%{
+    transform : scale(1);
+  }
+  50%{
+    transform : scale(0.75);
+  }
+}

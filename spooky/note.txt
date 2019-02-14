@@ -1,0 +1,55 @@
+1. DIFFERENT BETWEEN CONTAINER AND WRAPPER
+A. CONTAINER : used for structures that can contain more than one element
+B. WRAPPER : something that wraps arround a single object to provide more functionalities and interfaces
+to it
+
+
+2.DIFFERENT BETWEEN ID AND CLASS
+A. ID:
+- are unique
+- each page can only have one element with that ID
+- go with #
+
+B. CLASS:
+- use same class on multiple elements
+- use multiple classes on the same elements
+- go with dot (.)
+
+
+3.BOX SIZING:
+By default, the width and height of an element is calculated like this:
+
+width + padding + border = actual width of an element
+height + padding + border = actual height of an element
+
+This means : Element often appears bigger than what you have set
+
+Box sizing property allows us to include the padding and border in an element's total
+width and height. If you set box-sizing: border-box; on an element padding and border
+are included in the width and height
+
+
+4. ::before and ::after
+:: after => insert something after the content of each selected elements
+:: before => insert some thing before the content of each selected elements
+Eg : Insert something (text) before the content of each <p> elements
+		p::before{
+			content:"Read this";
+		}
+
+
+5. AUTO ELEMENT:
+- adjust value automatically according to the content or the context of element
+Eg : + height : auto => will go taller as it contains more text
+     + margin : 0 auto => will have left and right margins increased until it becomes
+		centered along the y-axis of the viewport
+
+
+
+6. POSITION:
+ - relative: Dùng d? thi?t l?p m?t ph?n t? s? d?ng các thu?c tính position (xem ? du?i) mà không làm ?nh hu?ng d?n vi?c hi?n th? ban d?u.
+ - absolute: Dùng d? thi?t l?p v? trí c?a m?t ph?n t? nhung nó s? luôn n?m trong m?t ph?n t? m? dang là relative.
+ - fixed: Hi?n th? luôn di theo trình duy?t khi cu?n trang.
+ - static: Ðua ph?n t? v? hi?n th? theo ki?u m?c d?nh.
+
+
