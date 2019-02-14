@@ -1,0 +1,42 @@
+1. JQUERY
+prop() : is used to return the properties and values of selected elements
++ use with return : returns value of first match elements
+
+$(this) : converts the DOM elements returned by this to a jQuery object, from which, you
+	  can continue using jQuery on
+
+on() : attaches one or more event handlers for selected elements and child elements
+
+BASIC SYNTAX OF JQUERY
+$(this).hide()  : hides the current elements
+$("p").hide	: hides all <p> elements
+$(".test").hide : hides all elements with class="test"
+$("#test").hide : hides all element with id="test"
+
+
+2. Label for
+- <label> : allows you to click on label and it will be treated like clicking on the
+	    associated input elements
+
+LABEL AND ID IN THE SAME TIME:
+It tells the label which <input> (or <select> or <textarea>…) the label is labeling, 
+and also provides some UI features such as moving focus to the relevant input when the 
+label is clicked, tapped, or otherwise triggered
+
+3. CSS ELEMENTS
+<visibility> : specifies whether or not an element is visible
+	Corresponding properties : hidden, visibile
+<cusor>: specifies the mouse cusor to be displayed when pointing over an element
+<transistion> : allows you to change property value smoothly from one value to another
+		over a given duration
+box-shadow(left, top, transparency, padding #color)
+
+SIGN:
+> : target elements which are direct children of particular element
++ : combines 2 sequences of simple selectors having same parent and second one must come
+    immidiately after the first. Choose nothing but second
+~ : same with +, but second selector does not immidiately follow the first one. Choose
+    everything but the first one
+	
+
+
