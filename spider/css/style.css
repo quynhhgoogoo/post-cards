@@ -1,6 +1,9 @@
 body{
   background : #ff785a;
-  position : absolute;
+}
+
+body:hover .spider{
+  top: -120%;
 }
 
 .spider{
@@ -101,11 +104,12 @@ body{
 }
 
 @keyframes look{
-  0%,100%{
-    transform: translateX(0);
-  }
-  50%{
-    transform: translateX(-100%);
+  0%, 40%, 100% {
+        transform: translateX(0); 
+    }
+
+    45%, 95% {
+        transform: translateX(-110%);
   }
 }
 
