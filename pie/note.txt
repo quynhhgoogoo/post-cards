@@ -1,0 +1,4 @@
+BOOSTRAP
+1. ENABLE FLEX BEHAVIOUR
+- transform direct children elements into flex items
+- flex containers and items are able to modified further with additional flex properties

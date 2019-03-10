@@ -1,0 +1,119 @@
+body{
+  background : #ff785a;
+  position : absolute;
+}
+
+.spider{
+  position : absolute;
+  display: inline-block;
+  top:0;
+  left : 30%;
+  
+  animation: swing 2s infinite;
+  transition: 1s ease-in-out;
+}
+
+.spider .spiderweb{
+  width : 3px;
+  height: 220px;
+  margin-left: 250px;
+  background: #FFFEF5;
+}
+
+.spider .body{
+  width : 200px;
+  height: 130px;
+  margin-left: 150px;
+  background : #000;
+  border-radius : 50%;
+}
+
+.spider .body .eye{
+  width: 45px;
+  height : 45px;
+  position: absolute;
+  background : #fff;
+  border-radius: 50%;
+}
+
+.spider .body .eye.left{
+  left: 190px;
+}
+.spider .body .eye.right{
+  left: 265px;
+}
+
+.spider .body .eye:after{
+  width : 10px;
+  height: 10px;
+  content:'';
+  display:block;
+  margin: 60%;
+  border-radius: 50%;
+  background: #000;
+  
+  animation: look 2s infinite;
+}
+
+.spider .legs .leg{
+  width: 120px;
+  height: 40px;
+  margin-top: -20px;
+  border: 8px solid transparent;
+  border-top-color: #000;
+}
+
+.spider .legs{
+  position: absolute;
+  bottom: -10%;
+  z-index : -1;
+}
+
+.spider .legs.left {
+    left: 10%;
+}
+
+.spider .legs.right {
+    right: -30%;
+}
+
+.legs.left .leg:nth-child(1){
+  margin-left: 20px;
+  transform: rotate(10deg);
+}
+.legs.right .leg:nth-child(1){
+  margin-left:-10px;
+  transform: rotate(-10deg);
+}
+.legs.left .leg:nth-child(2){
+  margin-left: 20px;
+}
+.legs.right .leg:nth-child(2){
+  margin-left:-20px;
+}
+.legs.left .leg:nth-child(3){
+    margin-left: 30px;
+    transform: rotate(-25deg);
+}
+.legs.right .leg:nth-child(3){
+    margin-left: -30px;
+    transform: rotate(25deg);
+}
+
+@keyframes look{
+  0%,100%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes swing{
+  0%,100%{
+    transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+  }
+}
