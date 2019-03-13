@@ -1,5 +1,6 @@
 body{
-  background: #090f0f;
+  background-color: #f9c5d1;
+background-image: linear-gradient(315deg, #f9c5d1 0%, #9795ef 74%);
 }
 
 .logo{
@@ -37,7 +38,7 @@ body{
   height: 0px;
   border-left: 150px solid transparent;
   border-right: 150px solid transparent;
-  border-bottom: 300px solid #5768FF;
+  border-bottom: 300px solid #4c4c4c;
   margin-left: 600px;
   margin-top:120px;
   z-index: -1;
@@ -49,7 +50,7 @@ body{
   height: 0px;
   border-left: 50px solid transparent;
   border-right: 50px solid transparent;
-  border-bottom: 100px solid #99A6FF;
+  border-bottom: 100px solid #b0b0b0;
   margin-left: 700px;
   margin-top:120px;
 }
@@ -110,7 +111,7 @@ body{
   margin-top:550px;
   margin-left: 350px;
   width: 40px;
-  height:220px;
+  height:50px;
   background: #3f2a14;
 }
 
@@ -119,7 +120,7 @@ body{
   margin-top:550px;
   margin-left: 560px;
   width: 40px;
-  height:220px;
+  height:50px;
   background: #3f2a14;
 }
 
@@ -137,7 +138,7 @@ body{
   position: absolute;
   width: 200px;
   height: 150px;
-  background: #5768FF;
+  background: #4c4c4c;
   margin-top: 420px;
   margin-left: 550px;
   z-index:;
@@ -158,7 +159,7 @@ body{
   position: absolute;
   width: 250px;
   height: 200px;
-  background: #FFA971;
+  background: #FFC1C4;
   margin-top: 350px;
   margin-left: 700px;
   z-index: 0;
@@ -168,20 +169,20 @@ body{
   position : absolute;
   width :65px;
   height: 65px;
-  background: #47A3FF;
+  background: #FFFED2;
   margin-top: 365px;
   margin-left: 720px;
-  border: 10px solid #7F6C69;
+  border: 10px solid #B28486;
 }
 
 .house.right .window.right{
   position : absolute;
   width :65px;
   height: 65px;
-  background: #47A3FF;
+  background: #FFFED2;
   margin-top: 365px;
   margin-left: 850px;
-  border: 10px solid #7F6C69;
+  border: 10px solid #B28486;
 }
 
 .house.right .door{
@@ -199,8 +200,8 @@ body{
   margin-top:550px;
   margin-left: 910px;
   width: 40px;
-  height:220px;
-  background: #7F512F;
+  height:50px;
+  background: #3f2a14;
 }
 
 .stand.right .leg2{
@@ -208,8 +209,8 @@ body{
   margin-top:550px;
   margin-left: 700px;
   width: 40px;
-  height:220px;
-  background: #7F512F;
+  height:50px;
+  background: #3f2a14;
 }
 
 .stand.right .leg3{
@@ -218,7 +219,7 @@ body{
   margin-left: 700px;
   width: 250px;
   height:40px;
-  background: #7F512F;
+  background: #3f2a14;
   z-index:1;
 }
 
@@ -229,5 +230,5 @@ body{
   width: 80px; 
   height: 80px; 
   border-radius: 50%; 
-  box-shadow: 15px 15px 0 0 #FFB02F;
+  box-shadow: 15px 15px 0 0 #FFEC91;
 }
