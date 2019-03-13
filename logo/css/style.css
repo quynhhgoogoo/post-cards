@@ -1,0 +1,233 @@
+body{
+  background: #090f0f;
+}
+
+.logo{
+  position: relative;
+  width : 350px;
+  height : 250px;
+}
+
+.mountain .rock{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 300px solid #7e7e7e;
+  margin-left: 390px;
+  margin-top: 120px;
+  z-index: -1;
+}
+
+.mountain .snow{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #bdbdbd;
+  margin-left: 490px;
+  margin-top:120px;
+}
+
+.mountain2 .rock{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 300px solid #5768FF;
+  margin-left: 600px;
+  margin-top:120px;
+  z-index: -1;
+}
+
+.mountain2 .snow{
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #99A6FF;
+  margin-left: 700px;
+  margin-top:120px;
+}
+
+.house.left .root{
+  position: absolute;
+  width : 150px;
+  height: 0px;
+  margin-left: 350px;
+  margin-top: 250px;
+  border-left : 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #7F1E00;
+}
+
+.house.left .wall{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  background: #FFC1C4;
+  margin-top: 350px;
+  margin-left: 350px;
+  z-index: 0;
+}
+
+.house.left .window.left{
+  position : absolute;
+  width :65px;
+  height: 65px;
+  background: #FFFED2;
+  margin-top: 365px;
+  margin-left: 370px;
+  border: 10px solid #B28486;
+}
+
+.house.left .window.right{
+  position : absolute;
+  width :65px;
+  height: 65px;
+  background: #FFFED2;
+  margin-top: 365px;
+  margin-left: 500px;
+  border: 10px solid #B28486;
+}
+
+.house.left .door{
+  position: absolute;
+  width: 60px;
+  height:70px;
+  background : #7F3A38;
+  margin-top: 470px;
+  margin-left: 445px;
+  z-index: 2;
+}
+
+.stand.left .leg1{
+  position: absolute;
+  margin-top:550px;
+  margin-left: 350px;
+  width: 40px;
+  height:220px;
+  background: #3f2a14;
+}
+
+.stand.left .leg2{
+  position: absolute;
+  margin-top:550px;
+  margin-left: 560px;
+  width: 40px;
+  height:220px;
+  background: #3f2a14;
+}
+
+.stand.left .leg3{
+  position: absolute;
+  margin-top:540px;
+  margin-left: 350px;
+  width: 250px;
+  height:40px;
+  background: #3f2a14;
+  z-index:1;
+}
+
+.fakebg{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  background: #5768FF;
+  margin-top: 420px;
+  margin-left: 550px;
+  z-index:;
+}
+
+.house.right .root{
+  position: absolute;
+  width : 150px;
+  height: 0px;
+  margin-left: 700px;
+  margin-top: 250px;
+  border-left : 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid #7F1E00;
+}
+
+.house.right .wall{
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  background: #FFA971;
+  margin-top: 350px;
+  margin-left: 700px;
+  z-index: 0;
+}
+
+.house.right .window.left{
+  position : absolute;
+  width :65px;
+  height: 65px;
+  background: #47A3FF;
+  margin-top: 365px;
+  margin-left: 720px;
+  border: 10px solid #7F6C69;
+}
+
+.house.right .window.right{
+  position : absolute;
+  width :65px;
+  height: 65px;
+  background: #47A3FF;
+  margin-top: 365px;
+  margin-left: 850px;
+  border: 10px solid #7F6C69;
+}
+
+.house.right .door{
+  position: absolute;
+  width: 60px;
+  height:70px;
+  background : #7F3A38;
+  margin-top: 470px;
+  margin-left: 795px;
+  z-index: 2;
+}
+
+.stand.right .leg1{
+  position: absolute;
+  margin-top:550px;
+  margin-left: 910px;
+  width: 40px;
+  height:220px;
+  background: #7F512F;
+}
+
+.stand.right .leg2{
+  position: absolute;
+  margin-top:550px;
+  margin-left: 700px;
+  width: 40px;
+  height:220px;
+  background: #7F512F;
+}
+
+.stand.right .leg3{
+  position: absolute;
+  margin-top:540px;
+  margin-left: 700px;
+  width: 250px;
+  height:40px;
+  background: #7F512F;
+  z-index:1;
+}
+
+.moon{
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 820px;
+  width: 80px; 
+  height: 80px; 
+  border-radius: 50%; 
+  box-shadow: 15px 15px 0 0 #FFB02F;
+}
