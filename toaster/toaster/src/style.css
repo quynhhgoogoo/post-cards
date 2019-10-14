@@ -1,0 +1,238 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.canvas{
+  background-color : #ffe066;
+  height : 100vh;
+  weight : 100vh;
+  margin : auto;
+  position : absolute;
+  top : 0;
+  bottom :0;
+  left: 0;
+  right: 0;
+}
+
+.toaster{
+  background-color : #5abff2;
+  height: 90px;
+  width: 120px;
+  position: relative;
+  top: 210px;
+  left : 500px;
+  border-radius : 30px 35px 0 0;
+  z-index: 1;
+}
+
+.cover{
+  background-color: #99ddff;
+  height: 90px;
+  width: 120px;
+  border-radius: 30px 35px 0 0;
+  position: relative;
+  right: 30px;
+  z-index: 2;
+}
+
+.b1,.b2{
+  background-color: #737373;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: relative;
+}
+
+.b1{
+  top: 20px;
+  left: 50px;
+}
+
+.b2{
+  top: 25px;
+  left: 50px;
+}
+.b3{
+  background-color: #5abff2;
+  height: 16px;
+  width: 16px;
+  position: relative;
+  top: 32px;
+  left: 46.5px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.shine{
+  background-color: #e6f7ff;
+  height: 25px;
+  width: 14px;
+  position: relative;
+  border-radius: 50%;
+  transform: rotate(30deg);
+  bottom: 35px;
+  left: 6px;
+}
+
+.slot1{
+  background-color: #666666;
+  position: relative;
+  height: 43px;
+  width: 8px;
+  border-radius: 15px;
+  bottom: 65px;
+  left: 101px;
+}
+
+.slot2{
+  background-color: #333333;
+  position: absolute;
+  height: 42px;
+  width: 5px;
+  border-radius: 15px;
+  bottom: 22px;
+  left: 101px;
+}
+
+.handle{
+  background-color: white;
+  position: relative;
+  height: 5px;
+  width: 20px;
+  left: 0.25px;
+  top: 2px;
+  animation: 4s move infinite;
+}
+
+@keyframes move{
+  50%{
+    transform: translateY(31px);
+  }
+}
+
+.handle-head{
+  background-color: #666666;
+  position: relative;
+  height: 10px;
+  width: 18px;
+  border-radius: 5px;
+  left: 8px;
+  bottom: 2px;
+}
+
+.base-front{
+  background-color: #666666;
+  position: relative;
+  height: 10px;
+  width: 130px;
+  border-radius: 15px;
+  bottom: 45px;
+  right: 35px;
+  z-index: 3;
+}
+
+.base-side{
+  background-color: #333333;
+  position: relative;
+  height: 10px;
+  width: 30px;
+  border-radius: 15px;
+  bottom: 55px;
+  left: 90px;
+}
+
+.toast1{
+  background-color: #cc8800;
+  position: relative;
+  width: 60px;
+  height: 15px;
+  border-radius: 15px;
+  left: 20px;
+  bottom: 180px;
+  animation: 4s shrink infinite;
+}
+
+@keyframes shrink{
+  50%{
+    transform: translateY(10px);
+  }
+  80%{
+    transform: translateY(-30px);
+  }
+}
+
+.toastl1{
+  background-color: #cc8800;
+  position: relative;
+  width: 52px;
+  height: 43px;
+  left: 3px;
+}
+
+.toastu1{
+  background-color: #ffd480;
+  position: relative;
+  width: 51px;
+  height: 8px;
+  border-radius: 15px;
+  left : 4px;
+  bottom : 40px;
+}
+
+.toastu2{
+  background-color: #ffd480;
+  position: relative;
+  width: 42px;
+  height: 28px;
+  left: 8px;
+  bottom: 40px;
+  z-index: 0;
+}
+
+.toast2{
+  background-color: #cc8800;
+  position: relative;
+  width: 60px;
+  height: 15px;
+  border-radius: 15px;
+  left: -10px;
+  bottom: 200px;
+  animation: 4s shrink2 infinite;
+}
+
+@keyframes shrink2{
+  50%{
+    transform: translateY(5px);
+  }
+  80%{
+    transform: translateY(-40px);
+  }
+}
+
+.toastl2{
+  background-color: #cc8800;
+  position: relative;
+  width: 52px;
+  height: 43px;
+  left: 3px;
+}
+
+.toastu3{
+  background-color: #ffd480;
+  position: relative;
+  width: 51px;
+  height: 8px;
+  border-radius: 15px;
+  left : 4px;
+  bottom : 40px
+}
+
+.toastu4{
+  background-color: #ffd480;
+  position: relative;
+  width: 42px;
+  height: 30px;
+  left: 8px;
+  bottom: 40px;
+  z-index: 0;
+}
